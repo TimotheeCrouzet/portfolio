@@ -1,0 +1,29 @@
+{
+  "communities": {
+    "0": [
+      "script",
+      "script_observer",
+      "script_reveals"
+    ]
+  },
+  "cohesion": {
+    "0": 0.6666666666666666
+  },
+  "gods": [
+    {
+      "id": "script_reveals",
+      "label": "reveals",
+      "degree": 1
+    },
+    {
+      "id": "script_observer",
+      "label": "observer",
+      "degree": 1
+    }
+  ],
+  "surprises": [],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
