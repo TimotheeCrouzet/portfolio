@@ -31,30 +31,25 @@
       <section class="hero section" id="top" aria-labelledby="hero-title">
         <div class="hero-copy reveal">
           <p class="eyebrow">Based in Paris, France</p>
-          <h1 id="hero-title">Seeking a<br><em>research internship.</em></h1>
-          <p class="hero-intro">I’m looking for a research internship in machine learning, with current interests in transfer learning, out-of-distribution learning, graph machine learning, and fuzzy machine learning. I’m Timothée Crouzet, a final-year engineering student with a foundation in mathematics and physics.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
+          <div class="hero-title-row">
+            <h1 id="hero-title">Seeking a<br><em>research internship.</em></h1>
+            <svg class="hero-graph" viewBox="0 0 140 140" aria-hidden="true">
+              <path d="M26 27 68 57 112 29M68 57 108 103M68 57 31 112M31 112 108 103" fill="none" stroke="#cfd1ca" stroke-width="1.5"/>
+              <path d="M68 57 112 29" fill="none" stroke="#f05d3b" stroke-width="1.5"/>
+              <circle cx="26" cy="27" r="7" fill="#153b58"/>
+              <circle cx="68" cy="57" r="10" fill="#f05d3b"/>
+              <circle cx="112" cy="29" r="7" fill="#fffdfa" stroke="#153b58" stroke-width="2"/>
+              <circle cx="31" cy="112" r="7" fill="#fffdfa" stroke="#f05d3b" stroke-width="2"/>
+              <circle cx="108" cy="103" r="8" fill="#153b58"/>
+            </svg>
           </div>
-        </div>
-        <div class="hero-figure reveal" aria-label="A visual summary of Timothée's working method">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="figure-core">observe<br><span>→</span> model<br><span>→</span> test</div>
-          <span class="figure-label label-top">question</span>
-          <span class="figure-label label-right">evidence</span>
-          <span class="figure-label label-bottom">iteration</span>
-          <span class="figure-dot dot-one"></span>
-          <span class="figure-dot dot-two"></span>
-          <span class="figure-dot dot-three"></span>
+          <p class="hero-intro">I’m looking for a research internship in machine learning, with current interests in transfer learning, out-of-distribution learning, graph machine learning, and fuzzy machine learning. I’m Timothée Crouzet, a final-year engineering student with a foundation in mathematics and physics.</p>
         </div>
       </section>
 
-      <section class="section work-section" id="work" aria-labelledby="work-title">
+      <section class="section work-section" id="work" aria-label="Selected experiments">
         <div class="section-heading reveal">
           <p class="eyebrow">Selected experiments</p>
-          <h2 id="work-title">Questions first.<br><em>Code second.</em></h2>
-          <p>Three projects across mechanics, supervised learning and geospatial systems. Different domains, same habit: make an idea measurable, then be honest about what the evidence says.</p>
         </div>
         <div class="project-grid">
           <article class="project-card project-card-wide reveal">
@@ -62,7 +57,6 @@
             <div class="project-content">
               <h3>Oval vs. Round<br>Bicycle Chainrings</h3>
               <p>To compare oval and round chainrings, I simulated the pedalling cycle across pedal angles to examine how chainring geometry affects crank torque through a revolution. Two experiments complemented the model: one measured the torque needed to lift a load at different pedal angles, and another estimated transmitted work from wheel rotations. The simulation suggested only marginal differences under the conditions studied.</p>
-              <img class="project-visual" src="assets/chainring-comparison.svg" alt="An oval bicycle chainring connected to a crank arm and pedal">
               <div class="tags"><span>Python</span><span>Mechanics</span><span>Experiment design</span></div>
               <a class="project-link" href="https://github.com/TimotheeCrouzet/oval-vs-round-chainring" target="_blank" rel="noopener noreferrer">Explore the project <span aria-hidden="true">↗</span></a>
             </div>
@@ -78,7 +72,7 @@
             </div>
           </article>
 
-          <article class="project-card project-card-dark reveal">
+          <article class="project-card reveal">
             <div class="project-index"><span>School project · 3 months · 2025</span></div>
             <div class="project-content">
               <h3>SmartRoute</h3>
@@ -97,7 +91,7 @@
       <section class="section dust-section" aria-labelledby="dust-title">
         <div class="dust-aside reveal"><span class="eyebrow">Production context</span></div>
         <div class="dust-copy reveal">
-          <h2 id="dust-title">Research needs<br><em>reliable systems.</em></h2>
+          <div class="dust-heading"><h2 id="dust-title">My internship at Dust</h2><img class="dust-logo" src="assets/dust-logo.png" alt="Dust logo"></div>
           <p class="lead">At Dust, a French AI startup, I worked on infrastructure for LLM-based agents and contributed to new MCP integrations.</p>
           <div class="dust-details">
             <div><strong>17+</strong><span>merged pull requests in <a href="https://github.com/dust-tt/dust" target="_blank" rel="noopener noreferrer">Dust’s open-source monorepo</a></span></div>
@@ -110,7 +104,7 @@
       <section class="section background-section" id="background" aria-labelledby="background-title">
         <div class="section-heading reveal">
           <p class="eyebrow">Foundations</p>
-          <h2 id="background-title">A technical education<br>with <em>scientific roots.</em></h2>
+          <h2 id="background-title">My education</h2>
         </div>
         <div class="timeline reveal">
           <div class="timeline-item current"><span class="timeline-year">2024–27</span><div><h3>ESIEE Paris — Gustave Eiffel University</h3><p>Diplôme d’Ingénieur in Data Science &amp; AI, master’s-level engineering degree.</p><small>Fundamental Theory of ML · Machine Learning I &amp; II · Deep &amp; Reinforcement Learning</small></div></div>
