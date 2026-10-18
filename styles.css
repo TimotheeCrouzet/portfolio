@@ -9,7 +9,7 @@
 .site-header{position:sticky;top:0;z-index:10;height:64px;padding:0 clamp(1.25rem,5vw,5rem);background:var(--paper);border-bottom:1px solid var(--line)}
 .site-header nav{gap:1.5rem;font-size:.78rem}
 main,.site-footer{margin-left:0}
-.section{max-width:none;padding:clamp(2rem,4vw,3.5rem) clamp(1.25rem,5vw,5rem)}
+.section{max-width:none;padding:clamp(1.5rem,3vw,2.5rem) clamp(1.25rem,5vw,5rem)}
 .section[id]{scroll-margin-top:5rem}
 .hero{min-height:0;grid-template-columns:minmax(0,1.15fr) minmax(220px,.65fr);gap:4vw;padding-top:2rem;padding-bottom:2rem}
 .hero h1{font-size:clamp(2.7rem,4.5vw,4.8rem);max-width:13ch}
